@@ -1,0 +1,27 @@
+{
+  "name": "playwright-api-automation-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "API test automation portfolio built with Playwright, TypeScript and Cucumber",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags '@smoke'",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "cucumber",
+    "api-testing",
+    "test-automation"
+  ],
+  "author": "Fatma Ulger Yilmaz",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.0"
+  }
+}
